@@ -1,7 +1,7 @@
 cask "docker" do
-  version "4.22.1,118664" # Atualize para a versão que você está instalando
-  sha256 arm:   "a452433af26047c933e75d9e647d33af41bec14cba7b7eb4fc7a43cf8f0efa4a",
-         intel: "dcc1babfa607be9eeb6ef221635352c7d9393c77b3837c206c76aa004d96ba9d"
+  version "4.23.0,120376" # Atualize para a versão que você está instalando
+  sha256  arm:   "88813e65928d86d2ad301e51619109aeb3f46f6e135b355000c8854ac4737cca",
+          intel: "30bf23633840a5d129c7e125f940f41336176ea0235c7592ab9b5b3f775d5b3e"
 
   url "https://desktop.docker.com/mac/stable/#{version.csv.first}/Docker.dmg" # Atualize para o URL correto
   name "Docker Desktop"
